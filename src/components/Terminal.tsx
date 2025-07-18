@@ -32,7 +32,7 @@ const Terminal = () => {
     };
 
     typeCommand();
-  }, [currentCommandIndex, commands]);
+  }, [currentCommandIndex]);
 
   useEffect(() => {
     const cursorInterval = setInterval(() => {
